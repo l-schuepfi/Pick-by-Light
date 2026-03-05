@@ -1,0 +1,17 @@
+Version 4
+SymbolType CELL
+RECTANGLE Normal 128 48 -128 -48
+TEXT 0 -59 Center 2 Netzstecker - MeanWell
+SYMATTR Prefix X
+PIN -128 -32 LEFT 8
+PINATTR PinName PE
+PINATTR SpiceOrder 1
+PIN -128 0 LEFT 8
+PINATTR PinName N
+PINATTR SpiceOrder 2
+PIN -128 32 LEFT 8
+PINATTR PinName L
+PINATTR SpiceOrder 3
+PIN 128 0 RIGHT 8
+PINATTR PinName SCHUKO-Stecker
+PINATTR SpiceOrder 4

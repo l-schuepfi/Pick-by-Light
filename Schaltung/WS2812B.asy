@@ -1,0 +1,14 @@
+Version 4
+SymbolType CELL
+RECTANGLE Normal 32 48 -32 -48
+TEXT 0 -59 Center 2 WS2812B
+SYMATTR Prefix X
+PIN -32 -32 LEFT 8
+PINATTR PinName 5V
+PINATTR SpiceOrder 1
+PIN -32 0 LEFT 8
+PINATTR PinName Din
+PINATTR SpiceOrder 2
+PIN -32 32 LEFT 8
+PINATTR PinName GND
+PINATTR SpiceOrder 3

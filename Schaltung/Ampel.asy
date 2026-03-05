@@ -1,0 +1,17 @@
+Version 4
+SymbolType CELL
+RECTANGLE Normal 32 64 -32 -64
+TEXT 0 -80 Center 2 Ampel
+SYMATTR Prefix X
+PIN -32 -48 LEFT 8
+PINATTR PinName G
+PINATTR SpiceOrder 1
+PIN -32 -16 LEFT 8
+PINATTR PinName Y
+PINATTR SpiceOrder 2
+PIN -32 16 LEFT 8
+PINATTR PinName R
+PINATTR SpiceOrder 3
+PIN -32 48 LEFT 8
+PINATTR PinName GND
+PINATTR SpiceOrder 4

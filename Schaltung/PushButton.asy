@@ -1,0 +1,15 @@
+Version 4
+SymbolType CELL
+RECTANGLE Normal 32 48 -32 -48
+TEXT 0 -59 Center 2 RAFI1.10.001
+TEXT 0 -80 Center 2 Push Button
+SYMATTR Prefix X
+PIN 32 -32 RIGHT 8
+PINATTR PinName VCC
+PINATTR SpiceOrder 1
+PIN 32 0 RIGHT 8
+PINATTR PinName OUT
+PINATTR SpiceOrder 2
+PIN 32 32 RIGHT 8
+PINATTR PinName GND
+PINATTR SpiceOrder 3

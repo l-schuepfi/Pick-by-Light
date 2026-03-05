@@ -1,0 +1,21 @@
+Version 4
+SymbolType CELL
+RECTANGLE Normal 32 96 -32 -64
+TEXT 0 -75 Center 2 SNT RS 50 5
+TEXT 0 -100 Center 2 Netzteil (Mean Well)
+SYMATTR Prefix X
+PIN 32 -48 RIGHT 8
+PINATTR PinName +V
+PINATTR SpiceOrder 1
+PIN 32 -16 RIGHT 8
+PINATTR PinName -V
+PINATTR SpiceOrder 2
+PIN 32 16 RIGHT 8
+PINATTR PinName PE
+PINATTR SpiceOrder 3
+PIN 32 48 RIGHT 8
+PINATTR PinName N
+PINATTR SpiceOrder 4
+PIN 32 80 RIGHT 8
+PINATTR PinName L
+PINATTR SpiceOrder 5
