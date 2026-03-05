@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=Pick-by-Light
+Exec=bash -c "cd /home/admin/dev/Pick-by-Light && source venv/bin/activate && sudo pigpiod && sudo $(which python) src/main.py"
+Terminal=true

@@ -1,0 +1,74 @@
+[tool.black]
+line-length = 100
+
+[tool.isort]
+line_length = 100
+profile = "black"
+
+[tool.liccheck]
+
+authorized_licenses = [
+    "apache",
+    "apache 2.0",
+    "apache license 2.0",
+    "apache software",
+    "apache software license",
+    "bsd or apache license, version 2.0",
+    "bsd",
+    "bsd\r",
+    "bsd license",
+    "bsd license\r",
+    "bsd (3 clause)",
+    "bsd 3-clause",
+    "bsd-3-clause",
+    "cc0 1.0 universal (cc0 1.0) public domain dedication",
+    "Eclipse Public License v2.0 / Eclipse Distribution License v1.0",
+    "isc",
+    "isc license (iscl)",
+    "new bsd",
+    "new bsd license",
+    "2-clause bsd",
+    "3-clause bsd",
+    "3 clause bsd",
+    "mit",
+    "mit license",
+    "mit license\r",
+    "mozilla public license 2.0",
+    "mozilla public license 2.0 (mpl 2.0)",
+    "mpl 2.0",
+    "python software foundation",
+]
+
+unauthorized_licenses = [
+    "gpl",
+    "gpl v1",
+    "gpl v2",
+    "gpl v3",
+    "gnu general public license v3 (gplv3)",
+]
+
+[tool.liccheck.authorized_packages]
+astroid = "*"
+
+docutils = "*"
+
+proton-broker-control = "*"
+proton-communication = "*"
+proton-data-types = "*"
+proton-invoke-common-tasks = "*"
+proton-python-testing-utility = "*"
+proton-sphinx-utility = "*"
+python-safety-security-tracing = "*"
+
+pylint = "*"
+
+sphinx-jsonschema = "*"
+
+[tool.mypy]
+
+check_untyped_defs = true
+
+[[tool.mypy.overrides]]
+module = [
+]
+ignore_missing_imports = true

@@ -1,0 +1,7 @@
+mfrc522
+openpyxl
+pigpio
+pillow
+types-pillow
+pygame
+pre-commit

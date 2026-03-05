@@ -1,0 +1,11 @@
+[MESSAGES CONTROL]
+
+disable=bad-inline-option,
+        deprecated-pragma,
+        file-ignored,
+        locally-disabled,
+        missing-module-docstring,
+        no-else-return,
+        raw-checker-failed,
+        suppressed-message,
+        use-symbolic-message-instead
