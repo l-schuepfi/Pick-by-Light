@@ -98,10 +98,6 @@ ENV/
 env.bak/
 venv.bak/
 
-# Special folders
-data/
-img/
-
 # Spyder project settings
 .spyderproject
 .spyproject
